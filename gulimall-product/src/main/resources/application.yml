@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password: mcafee
+    url: jdbc:mysql://111.229.135.182/gulimall_pms
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  mapper-location: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
